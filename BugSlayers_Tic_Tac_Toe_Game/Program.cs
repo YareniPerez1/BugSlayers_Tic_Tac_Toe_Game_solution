@@ -16,7 +16,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TicTacToeGame());
+            Application.Run(new frmTicTacToeGame());
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BugSlayers_Tic_Tac_Toe_Game
 {
-    public partial class TicTacToeGame : Form
+    public partial class frmTicTacToeGame : Form
     {
-        public TicTacToeGame()
+        public frmTicTacToeGame()
         {
             InitializeComponent();
         }

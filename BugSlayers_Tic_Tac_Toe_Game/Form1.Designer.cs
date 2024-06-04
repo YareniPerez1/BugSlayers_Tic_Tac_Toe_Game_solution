@@ -1,6 +1,6 @@
 ﻿namespace BugSlayers_Tic_Tac_Toe_Game
 {
-    partial class TicTacToeGame
+    partial class frmTicTacToeGame
     {
         /// <summary>
         /// Required designer variable.
@@ -172,7 +172,7 @@
             this.tmrCPU.Interval = 1000;
             this.tmrCPU.Tick += new System.EventHandler(this.CPUMove);
             // 
-            // TicTacToeGame
+            // frmTicTacToeGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +190,7 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.Name = "TicTacToeGame";
+            this.Name = "frmTicTacToeGame";
             this.Text = "Tic Tac Toe";
             this.Load += new System.EventHandler(this.TicTacToeGame_Load);
             this.ResumeLayout(false);
