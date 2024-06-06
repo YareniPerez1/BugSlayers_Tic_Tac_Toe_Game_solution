@@ -32,5 +32,15 @@ namespace BugSlayers_Tic_Tac_Toe_Game
             PlayerWins = 0;
             CPUWins = 0;
         }
+
+        public string GetPlayerWins()
+        {
+            return "Player Wins: " + PlayerWins;
+        }
+
+        public string GetCPUWins()
+        {
+            return "CPU Wins: " + CPUWins;
+        }
     }
 }
