@@ -41,7 +41,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         }
         private void CPUMove(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -52,7 +52,15 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
 
         }
+        private void TicTacToeGame_Load(object sender, EventArgs e)
+        {
+            // Initialize the scores
+          
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //ignore accidentally added
+        }
     }
 }
-
- 
