@@ -38,13 +38,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
 
 
-        private void TicTacToeGame_Load(object sender, EventArgs e)
-        {
-            //ignore accidently added
-        }
-        private void label1_Click(object sender, EventArgs e)
-        { //ignore accidently added
-
-        }
+        
+       
     }
 }

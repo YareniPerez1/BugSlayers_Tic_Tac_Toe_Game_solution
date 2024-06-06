@@ -146,7 +146,7 @@
             this.lblPlayerWinScore.Size = new System.Drawing.Size(104, 21);
             this.lblPlayerWinScore.TabIndex = 9;
             this.lblPlayerWinScore.Text = "Player Wins:";
-            this.lblPlayerWinScore.Click += new System.EventHandler(this.label1_Click);
+          
             // 
             // lblCPUWinScore
             // 
@@ -206,7 +206,7 @@
             this.Controls.Add(this.btn1);
             this.Name = "frmTicTacToeGame";
             this.Text = "Tic Tac Toe";
-            this.Load += new System.EventHandler(this.TicTacToeGame_Load);
+          
             this.ResumeLayout(false);
             this.PerformLayout();
 
