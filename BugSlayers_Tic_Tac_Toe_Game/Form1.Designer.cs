@@ -268,8 +268,10 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmTicTacToeGame";
             this.Text = "Tic Tac Toe";
+
             this.msMenuStrip.ResumeLayout(false);
             this.msMenuStrip.PerformLayout();
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
