@@ -15,19 +15,21 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
         private HumanPlayer player;
         private List<Button> buttons;
+        private CPU_Opponent cpu;
         public frmTicTacToeGame()
         {
             InitializeComponent();
 
             buttons = new List<Button> { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
             player = new HumanPlayer(PlayerSymbol.X);
+            cpu = new CPU_Opponent(PlayerSymbol.O, buttons);
         }
 
        
 
         private void CPUMove(object sender, EventArgs e)
         {
-
+            tmrCPU.Stop();
         }
 
         private void PlayerMove(object sender, EventArgs e)
