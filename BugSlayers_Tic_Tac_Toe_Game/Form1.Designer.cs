@@ -56,7 +56,7 @@
             this.btn1.BackColor = System.Drawing.Color.Black;
             this.btn1.ForeColor = System.Drawing.Color.Black;
             this.btn1.Location = new System.Drawing.Point(62, 96);
-            this.btn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn1.Margin = new System.Windows.Forms.Padding(2);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(84, 72);
             this.btn1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // 
             this.btn2.BackColor = System.Drawing.Color.Black;
             this.btn2.Location = new System.Drawing.Point(150, 96);
-            this.btn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn2.Margin = new System.Windows.Forms.Padding(2);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(84, 72);
             this.btn2.TabIndex = 1;
@@ -78,7 +78,7 @@
             // 
             this.btn3.BackColor = System.Drawing.Color.Black;
             this.btn3.Location = new System.Drawing.Point(238, 96);
-            this.btn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn3.Margin = new System.Windows.Forms.Padding(2);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(84, 72);
             this.btn3.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             this.btn4.BackColor = System.Drawing.Color.Black;
             this.btn4.Location = new System.Drawing.Point(62, 172);
-            this.btn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn4.Margin = new System.Windows.Forms.Padding(2);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(84, 72);
             this.btn4.TabIndex = 3;
@@ -100,7 +100,7 @@
             // 
             this.btn5.BackColor = System.Drawing.Color.Black;
             this.btn5.Location = new System.Drawing.Point(150, 172);
-            this.btn5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn5.Margin = new System.Windows.Forms.Padding(2);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(84, 72);
             this.btn5.TabIndex = 4;
@@ -111,7 +111,7 @@
             // 
             this.btn6.BackColor = System.Drawing.Color.Black;
             this.btn6.Location = new System.Drawing.Point(238, 172);
-            this.btn6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn6.Margin = new System.Windows.Forms.Padding(2);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(84, 72);
             this.btn6.TabIndex = 5;
@@ -122,7 +122,7 @@
             // 
             this.btn7.BackColor = System.Drawing.Color.Black;
             this.btn7.Location = new System.Drawing.Point(62, 247);
-            this.btn7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn7.Margin = new System.Windows.Forms.Padding(2);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(84, 72);
             this.btn7.TabIndex = 6;
@@ -133,7 +133,7 @@
             // 
             this.btn8.BackColor = System.Drawing.Color.Black;
             this.btn8.Location = new System.Drawing.Point(150, 247);
-            this.btn8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn8.Margin = new System.Windows.Forms.Padding(2);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(84, 72);
             this.btn8.TabIndex = 7;
@@ -144,7 +144,7 @@
             // 
             this.btn9.BackColor = System.Drawing.Color.Black;
             this.btn9.Location = new System.Drawing.Point(238, 247);
-            this.btn9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn9.Margin = new System.Windows.Forms.Padding(2);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(84, 72);
             this.btn9.TabIndex = 8;
@@ -154,25 +154,24 @@
             // lblPlayerWinScore
             // 
             this.lblPlayerWinScore.AutoSize = true;
-            this.lblPlayerWinScore.Font = new System.Drawing.Font("Microsoft Tai Le", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlayerWinScore.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlayerWinScore.ForeColor = System.Drawing.Color.White;
             this.lblPlayerWinScore.Location = new System.Drawing.Point(32, 68);
             this.lblPlayerWinScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPlayerWinScore.Name = "lblPlayerWinScore";
-            this.lblPlayerWinScore.Size = new System.Drawing.Size(71, 14);
+            this.lblPlayerWinScore.Size = new System.Drawing.Size(95, 19);
             this.lblPlayerWinScore.TabIndex = 9;
             this.lblPlayerWinScore.Text = "Player Wins:";
-
             // 
             // lblCPUWinScore
             // 
             this.lblCPUWinScore.AutoSize = true;
-            this.lblCPUWinScore.Font = new System.Drawing.Font("Microsoft Tai Le", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCPUWinScore.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCPUWinScore.ForeColor = System.Drawing.Color.White;
-            this.lblCPUWinScore.Location = new System.Drawing.Point(301, 68);
+            this.lblCPUWinScore.Location = new System.Drawing.Point(234, 68);
             this.lblCPUWinScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCPUWinScore.Name = "lblCPUWinScore";
-            this.lblCPUWinScore.Size = new System.Drawing.Size(61, 14);
+            this.lblCPUWinScore.Size = new System.Drawing.Size(81, 19);
             this.lblCPUWinScore.TabIndex = 10;
             this.lblCPUWinScore.Text = "CPU Wins:";
             // 
@@ -181,7 +180,7 @@
             this.lblTicTacToe.AutoSize = true;
             this.lblTicTacToe.Font = new System.Drawing.Font("Yu Gothic Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTicTacToe.ForeColor = System.Drawing.Color.White;
-            this.lblTicTacToe.Location = new System.Drawing.Point(137, 42);
+            this.lblTicTacToe.Location = new System.Drawing.Point(131, 34);
             this.lblTicTacToe.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTicTacToe.Name = "lblTicTacToe";
             this.lblTicTacToe.Size = new System.Drawing.Size(125, 25);
@@ -190,9 +189,9 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Font = new System.Drawing.Font("Microsoft YaHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestart.Location = new System.Drawing.Point(150, 343);
-            this.btnRestart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRestart.Margin = new System.Windows.Forms.Padding(2);
             this.btnRestart.Name = "btnRestart";
             this.btnRestart.Size = new System.Drawing.Size(84, 29);
             this.btnRestart.TabIndex = 12;
@@ -228,6 +227,7 @@
             this.tsmiFileExit.Name = "tsmiFileExit";
             this.tsmiFileExit.Size = new System.Drawing.Size(180, 22);
             this.tsmiFileExit.Text = "Exit";
+            this.tsmiFileExit.Click += new System.EventHandler(this.tsmiFileExit_Click);
             // 
             // tsmiHelp
             // 
@@ -240,7 +240,7 @@
             // tsmiHelpAbout
             // 
             this.tsmiHelpAbout.Name = "tsmiHelpAbout";
-            this.tsmiHelpAbout.Size = new System.Drawing.Size(180, 22);
+            this.tsmiHelpAbout.Size = new System.Drawing.Size(107, 22);
             this.tsmiHelpAbout.Text = "About";
             this.tsmiHelpAbout.Click += new System.EventHandler(this.tsmiHelpAbout_Click);
             // 
@@ -265,15 +265,12 @@
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.msMenuStrip);
             this.MainMenuStrip = this.msMenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmTicTacToeGame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
-
-
             this.msMenuStrip.ResumeLayout(false);
             this.msMenuStrip.PerformLayout();
-
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
