@@ -9,12 +9,30 @@ using System.Windows.Forms;
 namespace BugSlayers_Tic_Tac_Toe_Game
 {
     //Rayleen's Class
-    internal class RestartGame
+    public class RestartGame
     {
         public List<Button> buttons = new List<Button> { };
+        private CheckGame checkGame;
 
-        public void Restart()
-        { 
+        public RestartGame(List<Button> buttons , CheckGame checkGame)
+        {
+            this.buttons = buttons;
+            this.checkGame = checkGame;
+
+
+        }
+
+
+
+
+        public void ClearGame()
+        {
+
+            if (checkGame.GameOver == true)
+            {
+                checkGame.GameOver = false;
+            }
+
             foreach (Button x in buttons)
             {
                 x.Enabled = true;

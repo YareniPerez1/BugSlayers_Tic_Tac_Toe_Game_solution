@@ -30,6 +30,9 @@ namespace BugSlayers_Tic_Tac_Toe_Game
                 gameCounter = new GameCounter();  // Initialize GameCounter
                 UpdateScoreLabels();
 
+            cpu = new CPU_Opponent(PlayerSymbol.O, buttons);
+
+
         }
 
         public void IncrementPlayerWins()
@@ -43,6 +46,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
             gameCounter.IncrementCPUWins();
             UpdateScoreLabels();
+
         }
 
         private void UpdateScoreLabels()
@@ -55,6 +59,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         private void CPUMove(object sender, EventArgs e)
         {
 
+            tmrCPU.Stop();
 
         }
 
