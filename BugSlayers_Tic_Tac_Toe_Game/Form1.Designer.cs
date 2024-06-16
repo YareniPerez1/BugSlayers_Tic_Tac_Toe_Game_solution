@@ -200,7 +200,7 @@
             this.tsmiHelp});
             this.msMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.msMenuStrip.Name = "msMenuStrip";
-            this.msMenuStrip.Size = new System.Drawing.Size(616, 35);
+            this.msMenuStrip.Size = new System.Drawing.Size(616, 33);
             this.msMenuStrip.TabIndex = 13;
             this.msMenuStrip.Text = "menuStrip1";
             // 

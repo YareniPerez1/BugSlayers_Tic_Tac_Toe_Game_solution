@@ -13,10 +13,12 @@ namespace BugSlayers_Tic_Tac_Toe_Game
     public partial class frmTicTacToeGame : Form
     {
 
-
-        private HumanPlayer player;
         private List<Button> buttons;
-        private GameCounter gameCounter;  // Add GameCounter instance
+        private HumanPlayer player;
+        private CPU_Opponent cpu;
+        private GameCounter gameCounter;
+        private CheckGame checkGame;
+        private RestartGame restartGame;
        
 
 
@@ -27,10 +29,13 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
             buttons = new List<Button> { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
             player = new HumanPlayer(PlayerSymbol.X);
-                gameCounter = new GameCounter();  // Initialize GameCounter
-                UpdateScoreLabels();
-
             cpu = new CPU_Opponent(PlayerSymbol.O, buttons);
+            gameCounter = new GameCounter(lblPlayerWinScore,lblCPUWinScore);  // Initialize GameCounter
+            checkGame = new CheckGame(gameCounter, restartGame, tmrCPU);
+            restartGame = new RestartGame(buttons, checkGame);
+            checkGame.SetRestartGame(restartGame);
+
+
 
 
         }
@@ -58,8 +63,9 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         }
         private void CPUMove(object sender, EventArgs e)
         {
-
+            cpu.MakeMove();
             tmrCPU.Stop();
+            checkGame.CheckWinOrDraw(buttons, "O");
 
         }
 
@@ -68,20 +74,29 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         {
             //this is player click button in yareni's example.
 
-          
-
-
+            if (checkGame.GameOver) return;
             var button = (Button)sender;
-
+            if (!button.Enabled) return;
 
             button.Text = player.player.ToString();
+
             button.Enabled = false;
             button.BackColor = Color.LightGray;
+
+            List<Button> availableButtons = buttons.Where(b => b.Enabled).ToList();
+            cpu.UpdateButtons(availableButtons);
             tmrCPU.Start();
-        }
+            checkGame.CheckWinOrDraw(buttons, "X");
 
 
+
         }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            restartGame.ClearGame();
+        }
+    }
       
 
 
