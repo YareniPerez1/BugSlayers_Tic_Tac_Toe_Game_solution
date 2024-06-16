@@ -40,27 +40,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
         }
 
-        public void IncrementPlayerWins()
-        {
-            gameCounter.IncrementPlayerWins();
-            UpdateScoreLabels();
-        }
-
-        public void IncrementCPUWins()
-        {
-
-            gameCounter.IncrementCPUWins();
-            UpdateScoreLabels();
-
-        }
-
-        private void UpdateScoreLabels()
-        {
-
-            lblPlayerWinScore.Text = gameCounter.GetPlayerWins();
-            lblCPUWinScore.Text = gameCounter.GetCPUWins();
-
-        }
+     
         private void CPUMove(object sender, EventArgs e)
         {
             cpu.MakeMove();
