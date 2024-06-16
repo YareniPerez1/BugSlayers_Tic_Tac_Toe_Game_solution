@@ -242,7 +242,7 @@
             this.tsmiHelpAbout.Name = "tsmiHelpAbout";
             this.tsmiHelpAbout.Size = new System.Drawing.Size(180, 22);
             this.tsmiHelpAbout.Text = "About";
-            this.tsmiHelpAbout.Click += new System.EventHandler(this.tsmiHelpAbout_Click);
+           // this.tsmiHelpAbout.Click += new System.EventHandler(this.tsmiHelpAbout_Click);
             // 
             // frmTicTacToeGame
             // 
