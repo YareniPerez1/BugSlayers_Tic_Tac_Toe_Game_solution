@@ -12,12 +12,24 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 {
     public partial class frmTicTacToeGame : Form
     {
+
         private GameCounter gameCounter;  // Add GameCounter instance
         public frmTicTacToeGame()
         {
             InitializeComponent();
             gameCounter = new GameCounter();  // Initialize GameCounter
             UpdateScoreLabels();
+
+
+        private HumanPlayer player;
+        private List<Button> buttons;
+        public frmTicTacToeGame()
+        {
+            InitializeComponent();
+
+            buttons = new List<Button> { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
+            player = new HumanPlayer(PlayerSymbol.X);
+
         }
 
         public void IncrementPlayerWins()
@@ -28,6 +40,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
 
         public void IncrementCPUWins()
         {
+
             gameCounter.IncrementCPUWins();
             UpdateScoreLabels();
         }
@@ -50,17 +63,28 @@ namespace BugSlayers_Tic_Tac_Toe_Game
         {
             //this is player click button in yareni's example.
 
-
-        }
-        private void TicTacToeGame_Load(object sender, EventArgs e)
-        {
-            // Initialize the scores
           
+
+
+            var button = (Button)sender;
+
+
+            button.Text = player.player.ToString();
+            button.Enabled = false;
+            button.BackColor = Color.DarkSeaGreen;
+            tmrCPU.Start();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            //ignore accidentally added
+
         }
+      
+
+
+        private void tsmiHelpAbout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Rules for Tic-Tac-Toe\r\n\r\n1. The game is played on a grid that's 3 squares by 3 squares.\r\n\r\n2. You are X , your friend (or the computer) is O . Players take turns putting their marks in empty squares.\r\n\r\n3. The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.\r\n\r\n4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.", "About Tic Tac Toe");
+        }
+
+
     }
 }
