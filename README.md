@@ -19,3 +19,4 @@ Game Rules: https://docs.google.com/document/d/1uo6HKRlAHEoRS8yGIMRfoJn_LL_UHF3-
 
 Excel Score Spreadsheet: https://centralia-my.sharepoint.com/:x:/g/personal/yareni_perez_student_centralia_edu/EXg483zkXNNEsJy9XPSmJUsBMMSrp_abf9Ro-ekw-WVfjQ?e=dqtl2u
 
+Presentation: 
