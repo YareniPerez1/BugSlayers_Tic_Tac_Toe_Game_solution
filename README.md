@@ -1,6 +1,13 @@
 # BugSlayers_Tic_Tac_Toe_Game_solution
 
-Trello Board:  https://trello.com/b/9wQLT1zZ/tic-tac-toe-board
+
+SLIDE SHOW PRESENTATION: https://1drv.ms/p/s!AuiEY2cG52pflEcqMYkym-DTgoKE?e=gC24yP&nav=eyJzSWQiOjI2NSwiY0lkIjo5MjQ5OTk0NTJ9
+
+
+TRELLO BOARD:  https://trello.com/b/9wQLT1zZ/tic-tac-toe-board
+
+
+LINKS TO PROJECT PROPOSAL, UMLs, UIs, AND EXCEL SCORESHEET FROM THE SLIDESHOW:
 
 UI Mockup:Tic-Tac-Toe UI Mockup (canva.com)
 https://www.canva.com/design/DAGGioRq_Sw/6EiVziyEF1yIZ841KA05Mw/view?utm_content=DAGGioRq_Sw&utm_campaign=designshare&utm_medium=link&utm_source=editor
@@ -15,8 +22,9 @@ Activity Diagram: https://lucid.app/lucidchart/invitations/accept/inv_c629e10a-1
 
 Project Proposal: https://docs.google.com/document/d/11vZ64kc52PHMZX7sZMd1V4zOm4LNwMvNERYR1_IWTfs/edit?usp=sharing
 
-Game Rules: https://docs.google.com/document/d/1uo6HKRlAHEoRS8yGIMRfoJn_LL_UHF3-qlUqFCVFpcM/edit?usp=sharing
-
 Excel Score Spreadsheet: https://centralia-my.sharepoint.com/:x:/g/personal/yareni_perez_student_centralia_edu/EXg483zkXNNEsJy9XPSmJUsBMMSrp_abf9Ro-ekw-WVfjQ?e=dqtl2u
 
-Presentation: 
+
+LINK TO GAME RULES ONLINE: https://docs.google.com/document/d/1uo6HKRlAHEoRS8yGIMRfoJn_LL_UHF3-qlUqFCVFpcM/edit?usp=sharing
+
+
