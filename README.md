@@ -8,7 +8,7 @@ TRELLO BOARD:  https://trello.com/b/9wQLT1zZ/tic-tac-toe-board
 ------------------------------------------------------------------------------------------------------------------------
 
 LINKS TO PROJECT PROPOSAL, UMLs, UIs, AND EXCEL SCORESHEET FROM THE SLIDESHOW:
-
+-------------------------------------------------------------------------------------------------------------------------
 UI Mockup:Tic-Tac-Toe UI Mockup (canva.com)
 https://www.canva.com/design/DAGGioRq_Sw/6EiVziyEF1yIZ841KA05Mw/view?utm_content=DAGGioRq_Sw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
@@ -26,5 +26,5 @@ Excel Score Spreadsheet: https://centralia-my.sharepoint.com/:x:/g/personal/yare
 
 ----------------------------------------------------------------------------------------------------------------------------
 LINK TO GAME RULES ONLINE: https://docs.google.com/document/d/1uo6HKRlAHEoRS8yGIMRfoJn_LL_UHF3-qlUqFCVFpcM/edit?usp=sharing
-
+----------------------------------------------------------------------------------------------------------------------------
 
