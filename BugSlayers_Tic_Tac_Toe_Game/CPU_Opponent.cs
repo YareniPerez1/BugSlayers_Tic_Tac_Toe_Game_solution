@@ -37,7 +37,7 @@ namespace BugSlayers_Tic_Tac_Toe_Game
                 buttons[index].Enabled = false;
                 currentPlayer = player;
                 buttons[index].Text = currentPlayer.ToString();
-                buttons[index].BackColor = Color.LavenderBlush;
+                buttons[index].BackColor = Color.Gray;
                 buttons.RemoveAt(index);
 
             }

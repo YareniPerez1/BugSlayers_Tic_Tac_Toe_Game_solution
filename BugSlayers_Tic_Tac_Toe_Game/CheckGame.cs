@@ -5,15 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace tictactoepractice
+namespace BugSlayers_Tic_Tac_Toe_Game
 {
     public class CheckGame
     {
-        private GameCount winCount;
+        private GameCounter winCount;
         private RestartGame restartGame;
         private Timer CPUTimer;
 
-        public bool GameOver { get; private set; } = false;
+        public bool GameOver { get;  set; } = false;
+
+       
 
         private static readonly List<(int, int, int)> WinningCombinations = new List<(int, int, int)>
         {
@@ -27,7 +29,7 @@ namespace tictactoepractice
             (2, 4, 6)  // Diagonal from top-right to bottom-left
         };
 
-        public CheckGame(GameCount winCount, RestartGame restartGame, Timer CPUTimer)
+        public CheckGame(GameCounter winCount, RestartGame restartGame, Timer CPUTimer)
         {
             this.winCount = winCount;
             this.restartGame = restartGame;
@@ -71,18 +73,18 @@ namespace tictactoepractice
 
             if (playerSymbol == "X")
             {
-                winCount.CountPlayerWin();
-                winCount.UpdatePlayerWin();
+                winCount.IncrementPlayerWins();
+                winCount.UpdateScoreLabels();
                 MessageBox.Show("Player Wins!");
             }
             else if (playerSymbol == "O")
             {
-                winCount.CountCPUWin();
-                winCount.UpdateCPUWin();
+                winCount.IncrementCPUWins();
+                winCount.UpdateScoreLabels();
                 MessageBox.Show("CPU Wins!");
             }
 
-            restartGame.ClearGame();
+           restartGame.ClearGame();
         }
 
         private void HandleDraw()
