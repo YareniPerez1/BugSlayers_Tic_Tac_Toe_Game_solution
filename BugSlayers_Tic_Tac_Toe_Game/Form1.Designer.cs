@@ -228,8 +228,9 @@
             // tsmiFileExit
             // 
             this.tsmiFileExit.Name = "tsmiFileExit";
-            this.tsmiFileExit.Size = new System.Drawing.Size(93, 22);
+            this.tsmiFileExit.Size = new System.Drawing.Size(180, 22);
             this.tsmiFileExit.Text = "Exit";
+            this.tsmiFileExit.Click += new System.EventHandler(this.tsmiFileExit_Click);
             // 
             // tsmiHelp
             // 
