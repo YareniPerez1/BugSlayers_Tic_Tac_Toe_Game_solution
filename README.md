@@ -1,10 +1,12 @@
 # BugSlayers_Tic_Tac_Toe_Game_solution
 
 
-SLIDE SHOW PRESENTATION: https://1drv.ms/p/s!AuiEY2cG52pflEcqMYkym-DTgoKE?e=gC24yP&nav=eyJzSWQiOjI2NSwiY0lkIjo5MjQ5OTk0NTJ9
+SLIDE SHOW PRESENTATION: https:
+https://1drv.ms/p/s!AuiEY2cG52pflEcqMYkym-DTgoKE?e=ytMaAb&nav=eyJzSWQiOjI2MywiY0lkIjo0MjY1MjQ3NzcyfQ
 ------------------------------------------------------------------------------------------------------------------------
 
-TRELLO BOARD:  https://trello.com/b/9wQLT1zZ/tic-tac-toe-board
+TRELLO BOARD:  
+https://trello.com/b/9wQLT1zZ/tic-tac-toe-board
 ------------------------------------------------------------------------------------------------------------------------
 
 LINKS TO PROJECT PROPOSAL, UMLs, UIs, AND EXCEL SCORESHEET FROM THE SLIDESHOW:
