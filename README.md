@@ -1,7 +1,7 @@
 # BugSlayers_Tic_Tac_Toe_Game_solution
 
 
-SLIDE SHOW PRESENTATION: https:
+SLIDE SHOW PRESENTATION:
 https://1drv.ms/p/s!AuiEY2cG52pflEcqMYkym-DTgoKE?e=ytMaAb&nav=eyJzSWQiOjI2MywiY0lkIjo0MjY1MjQ3NzcyfQ
 ------------------------------------------------------------------------------------------------------------------------
 
